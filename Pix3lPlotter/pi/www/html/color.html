@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<head>
+<title>EV3 Printer Web Interface</title>
+<link rel="stylesheet" href="css/jsfeat.css">
+<link rel="stylesheet" href="style.css">
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/modernizr.custom.34982.js"></script>
+<script src="js/sketcher.js"></script>
+<script src="js/trigonometry.js"></script>
+<script src="modernizr-1.6.min.js"></script>
+</head>
+<body onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('play').click()">
+  <script>
+pencolor = "#0000"
+penwidth = 5
+oldpen = penwidth
+  </script>
+  <style>
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2.5); /* IE */
+  -moz-transform: scale(2.5); /* FF */
+  -webkit-transform: scale(2.5); /* Safari and Chrome */
+  -o-transform: scale(2.5); /* Opera */
+  padding: 10px;
+}
+
+    
+/* Some CSS styling */
+#sketchpadapp {
+    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.leftside {
+    float:left;
+    width:230px;
+    height:315px;
+    background-color:#def;
+    padding:10px;
+    border-radius:4px;
+}
+.rightside {
+    float:left;
+    margin-left:10px;
+}
+#sketchpad {
+    float:left;
+    height:300px;
+    width:400px;
+    border:2px solid #888;
+    border-radius:4px;
+    position:relative; /* Necessary for correct mouse co-ords in Firefox */
+}
+#clearbutton {
+    font-size: 10px;
+    padding: 10px;
+    -webkit-appearance: none;
+    background: #eee;
+    border: 1px solid #888;
+}
+</style>
+
+
+<!--Enter Your Name Before Printing: 
+  <input type="text" style="font-size:20px;" id='name'>
+<br><br>-->
+<h1>PIX3L PLOTT3R Interface v4.0 <i style="color: red">DUAL</i>-<i>COLOR</i></h1>
+
+    <div id="sketchpadapp">
+        <div class="leftside">
+             Draw what you want the robot to print.
+           Then press the print button. Note: Blue will be printed as red. 
+	To take a picture, presss take a picture mode --> click share selected device.
+<br/>
+<input type="submit" value="Clear Sketchpad" id="clearbutton" onclick="
+document.getElementById('text').value = '';
+var tCtx = document.getElementById('sketch').getContext('2d')
+tCtx.fillStyle = 'white';
+tCtx.fillRect(0, 0, 50000, 1200);
+">
+       <input type="submit" onclick="upload()" style="font-size: 10px; padding: 10px;
+    -webkit-appearance: none;
+    background: #eee;
+    border: 1px solid #888;
+width: 100px" value="Print" />
+
+<p style="font-size:15px">
+<input type="text" style="font-size:20px;" id='text' size="15" placeholder="Print Text"><br>
+
+<a  download="data.png" onclick="loadimg('sample/color/ev3logo.png');loadimg('sample/color/ev3logo.png');" >EV3 Logo</a><br>
+<a onclick="loadimg('sample/color/mindstorms.png');loadimg('sample/color/mindstorms.png')">MINDSTORMS</a><br>
+<!--<a onclick="loadimg('images/steeler.jpg');loadimg('images/steeler.jpg')">Steelers Logo</a><br>
+<a onclick="loadimg('images/lego.png');loadimg('images/lego.png')">LEGO Logo</a><br>
+<a onclick="loadimg('images/tiger.jpg');loadimg('images/tiger.jpg')">A Tiger</a><br>
+<a onclick="loadimg('images/scream.jpg');loadimg('images/scream.jpg')">Scream</a><br>
+<a onclick="loadimg('images/vangogh.png');loadimg('images/vangogh.png')">Van Gogh Self Portrait (face)</a><br>
+-->
+Image Upload: <input type="file" id="imageLoader" name="imageLoader"/>
+</p>
+
+
+        <form method="post" accept-charset="utf-8" name="form1">
+            <input name="hidden_data" id='hidden_data' type="hidden"/>
+        </form>
+
+     </div>
+        <div class="rightside">
+<script>
+
+function loadimg(url) {
+var dataURL = sketch.toDataURL('image/png');
+var img = new Image();
+    img.onload = function(){
+       // alert( this.width+' '+ this.height );
+//     canvas.width = this.width;
+//            canvas.height = this.height;
+    };
+    img.src = url;
+
+      var context = canvas.getContext('2d');
+      var imageObj = new Image();
+context.fillStyle = "white";
+context.fillRect(0, 0, canvas.width, canvas.height);
+
+      imageObj.onload = function() {
+        context.drawImage(imageObj, 0, 0);
+      };
+      imageObj.src = url;
+//document.getElementById('check').checked = false
+
+}
+
+
+
+
+
+/*
+var sketcher = null;
+
+$(document).ready(function(e) {
+	
+	sketcher = new Sketcher( "sketch" );
+});*/
+
+
+
+var imageLoader = document.getElementById('imageLoader');
+    imageLoader.addEventListener('change', handleImage, false);
+
+var canvas = document.getElementById('sketch');
+var ctx = canvas.getContext('2d');
+
+
+
+function handleImage(e){
+var canvas = document.getElementById("sketch");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+    var reader = new FileReader();
+    reader.onload = function(event){
+        var img = new Image();
+        img.onload = function(){
+//            canvas.width = img.width;
+//            canvas.height = img.height;
+            ctx.drawImage(img,0,0);
+        }
+        img.src = event.target.result;
+    }
+    reader.readAsDataURL(e.target.files[0]);     
+}
+</script>
+   <video id="webcam" width="640" height="480" style="display:none;"></video>
+
+    <canvas id="sketch" width="240" height="120" />
+    <div id="no_rtc" class="alert alert-error" style="display:none;"></div>
+                <div id="log" class="alert alert-info"></div>
+    <script>
+var canvas = document.getElementById("sketch");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+    </script>
+
+
+
+
+<br>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+
+
+
+
+
+
+<!--
+<canvas  id='textCanvas' height=120></canvas>
+--><!--<img id='image'>-->
+    <br><!--<a style="font-size:20px;" download="data.png" onclick=" var dataURL = textCanvas.toDataURL('image/png');
+    this.href = dataURL; this.download = 'data_' + document.getElementById('text').value + '_.png'" href="">Print Text</a>-->
+
+  <style>
+canvas{
+    border: 1px black solid;
+}
+#textCanvas{
+    display: none;
+}
+    </style>
+<script>
+var tCtx = document.getElementById('sketch').getContext('2d'),
+    imageElem = document.getElementById('image');
+function func(){
+tCtx.fillStyle = "black";
+tCtx.fillRect(0, 0, 50000, 120);
+
+aaa = tCtx.measureText(document.getElementById('text').value).width
+if (aaa > 500) {
+}
+tCtx.fillStyle = "white";
+tCtx.fillRect(0, 0, 50000, 120);
+tCtx.font = "100px Arial";
+if (document.getElementById('text').value.length > 8) {
+  fontsize = 8 * 100 / document.getElementById('text').
+value.length
+} else {
+  fontsize = 100
+}
+tCtx.font = String(fontsize)+"px Droid Sans Mono";
+tCtx.font = String(fontsize)+"px Menlo-Regular";
+tCtx.font = String(fontsize)+"px Menlo";
+tCtx.fillStyle = "black";
+tCtx.fillText(document.getElementById('text').value, 0, fontsize * .75 + 10);
+//}
+}
+document.getElementById('text').addEventListener('keyup', function (){
+func()
+  }, false);
+
+ </script>
+
+
+
+ <script>
+   function upload() {
+//   if (document.getElementById('name').value != "") {
+                var canvas = document.getElementById("sketch");
+                var dataURL = canvas.toDataURL("image/png");
+                document.getElementById('hidden_data').value = dataURL;
+                var fd = new FormData(document.forms["form1"]);
+ 
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'upload.php?name=color', true);
+ 
+                xhr.upload.onprogress = function(e) {
+                    if (e.lengthComputable) {
+                        var percentComplete = (e.loaded / e.total) * 100;
+                        console.log(percentComplete + '% uploaded');
+                        alert('Succesfully uploaded');
+                    }
+                };
+ 
+                xhr.onload = function() {
+ 
+                };
+                xhr.send(fd);
+//   } else {
+//alert('Enter a Name')
+//   }
+   };
+
+
+
+
+
+
+
+/*   
+(function() {
+	var canvas = document.querySelector('#sketch');
+	var ctx = canvas.getContext('2d');
+	var mouse = {x: 0, y: 0};
+ctx.beginPath();
+ctx.rect(0, 0, 1500, 1000);
+ctx.fillStyle = "black";
+ctx.fill();
+	/* Mouse Capturing Work 
+	canvas.addEventListener('mousemove', function(e) {
+		mouse.x = e.pageX - this.offsetLeft;
+		mouse.y = e.pageY - this.offsetTop;
+	}, false);
+	
+	/* Drawing on Paint App 
+	ctx.lineWidth = 5;
+	ctx.lineJoin = 'round';
+	ctx.lineCap = 'round';
+	ctx.strokeStyle = 'white';
+	 
+	canvas.addEventListener('mousedown', function(e) {
+			ctx.beginPath();
+			ctx.moveTo(mouse.x, mouse.y);
+	 
+			canvas.addEventListener('mousemove', onPaint, false);
+	}, false);
+	 
+	canvas.addEventListener('mouseup', function() {
+			canvas.removeEventListener('mousemove', onPaint, false);
+	}, false);
+	 
+	var onPaint = function() {
+			ctx.lineTo(mouse.x, mouse.y);
+			ctx.stroke();
+	};
+	
+}());
+*/
+   var canvas = document.querySelector('#sketch');
+        var ctx = canvas.getContext('2d');
+ctx.beginPath();
+ctx.rect(0, 0, 1500, 1000);
+ctx.fillStyle = 'white';
+ctx.fill();
+
+ </script>
+  <input type="button" id="White" onclick="penwidth=10  ;r=255; g=255; b=255; a=255;
+" style="background-color: white; width: 25px; height: 25px;"/>
+ <input type="button" id="Black" onclick="penwidth=oldpen; r=0; g=0; b=0; a=255;
+					  " style="background-color: black; width: 25px; height: 25px;"/>
+ 
+ <input type="button" id="Red" onclick="penwidth=oldpen; r=0; g=0; b=255; a=255;
+" style="background-color: blue; width: 25px; height: 25px;"/>
+    </body>
+
+</html>
+
+<button onclick="window.location.href='photo.html'   
+" >picture interface</button>
+
+
+<button onclick="window.location.href='index.html'
+" id="pic">standard interface</button>
+
+				    <!--	    <button onclick="   
+eval(val); exit.style.display = 'inline';
+this.style.display = 'none' 
+document.getElementById('play').style.display = 'inline';
+" id="pic">enter  take a picture mode</button>
+
+            <button onclick=" 
+window.location.reload(); 
+ " id="exit">leave  take a picture mode</button>
+
+          <button id="play" onclick="   
+if (webcam.paused == false) {
+      webcam.pause();
+    //  alert('music paused');
+  } else {
+      webcam.play();
+      //alert('music playing');
+  }
+//a();
+//pencolor = 'black'
+//penwidth = 7
+//Black.click()
+        var mouse = {x: 0, y: 0};
+
+        /* Mouse Capturing Work */
+        canvas.addEventListener('mousemove', function(e) {
+                mouse.x = e.pageX - this.offsetLeft;
+                mouse.y = e.pageY - this.offsetTop;
+        }, false);
+
+        /* Drawing on Paint App */
+        ctx.lineWidth = 5;
+        ctx.lineJoin = 'round';
+        ctx.lineCap = 'round';
+        ctx.strokeStyle = 'white';
+
+        canvas.addEventListener('mousedown', function(e) {
+                        ctx.beginPath();
+                        ctx.moveTo(mouse.x, mouse.y);
+
+                        canvas.addEventListener('mousemove', onPaint, false);
+        }, false);
+
+        canvas.addEventListener('mouseup', function() {
+                        canvas.removeEventListener('mousemove', onPaint, false);
+        }, false);
+
+        var onPaint = function() {
+                        ctx.lineTo(mouse.x, mouse.y);
+                        ctx.stroke();
+        };
+
+
+
+  "> play/pause (to edit)</button>-->
+<script>
+val = 'img()';
+document.getElementById('exit').style.display = 'none';
+document.getElementById('play').style.display = 'none';
+
+</script>
+	
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jsfeat-min.js"></script>
+        <script type="text/javascript" src="js/compatibility.js"></script>
+        <script type="text/javascript" src="js/profiler.js"></script>
+        <script type="text/javascript" src="js/dat.gui.min.js"></script>
+        <script type="text/javascript">
+//500x375
+
+var video = document.getElementById('webcam');
+var canvas = document.getElementById('sketch');
+
+//$(window).load(function() {
+ //           "use strict";
+function img() {
+            // lets do some fun
+
+            try {
+                var attempts = 0;
+                var readyListener = function(event) {
+                    findVideoSize();
+                };
+                var findVideoSize = function() {
+                    if(video.videoWidth > 0 && video.videoHeight > 0) {
+                        video.removeEventListener('loadeddata', readyListener);
+                        onDimensionsReady(video.videoWidth, video.videoHeight);
+                    } else {
+                        if(attempts < 10) {
+                            attempts++;
+                            setTimeout(findVideoSize, 200);
+                        } else {
+                            onDimensionsReady(640, 480);
+                        }
+                    }
+                };
+                var onDimensionsReady = function(width, height) {
+                    demo_app(width, height);
+                    compatibility.requestAnimationFrame(tick);
+                };
+
+                video.addEventListener('loadeddata', readyListener);
+
+                compatibility.getUserMedia({video: true}, function(stream) {
+                    try {
+                        video.src = compatibility.URL.createObjectURL(stream);
+                    } catch (error) {
+                        video.src = stream;
+                    }
+                    setTimeout(function() {
+                            video.play();
+                        }, 500);
+                }, function (error) {
+                    $('#canvas').hide();
+                    $('#log').hide();
+                    $('#no_rtc').html('<h4>WebRTC not available.</h4>');
+                    $('#no_rtc').show();
+                });
+            } catch (error) {
+//                $('#canvas').hide();
+                $('#log').hide();
+                $('#no_rtc').html('<h4>Something goes wrong...</h4>');
+                $('#no_rtc').show();
+            }
+}
+            var stat = new profiler();
+
+            var gui,options,ctx,canvasWidth,canvasHeight;
+            var img_u8;
+
+            var demo_opt = function(){
+                this.blur_radius = 2;
+                this.low_threshold = 20;
+                this.high_threshold = 50;
+            }
+
+            function demo_app(videoWidth, videoHeight) {
+                canvasWidth  = canvas.width;
+                canvasHeight = canvas.height;
+                ctx = canvas.getContext('2d');
+                    
+                ctx.fillStyle = "rgb(0,255,0)";
+                ctx.strokeStyle = "rgb(0,255,0)";
+
+                img_u8 = new jsfeat.matrix_t(640, 480, jsfeat.U8C1_t);
+
+                options = new demo_opt();
+                gui = new dat.GUI();
+
+                gui.add(options, 'blur_radius', 0, 4).step(0.1);
+                gui.add(options, 'low_threshold', 1, 127).step(1);
+                gui.add(options, 'high_threshold', 1, 127).step(1);
+
+                stat.add("grayscale");
+                stat.add("gauss blur");
+                stat.add("canny edge");
+            }
+
+            function tick() {
+                compatibility.requestAnimationFrame(tick);
+                stat.new_frame();
+                if (video.readyState === video.HAVE_ENOUGH_DATA) {
+                    ctx.drawImage(video, 0, 0, 640, 480);
+                    var imageData = ctx.getImageData(0, 0, 640, 480);
+
+                    stat.start("grayscale");
+                    jsfeat.imgproc.grayscale(imageData.data, 640, 480, img_u8);
+                    stat.stop("grayscale");
+
+                    var r = options.blur_radius|0;
+                    var kernel_size = (r+1) << 1;
+
+                    stat.start("gauss blur");
+                    jsfeat.imgproc.gaussian_blur(img_u8, img_u8, kernel_size, 0);
+                  stat.stop("gauss blur");
+
+                    stat.start("canny edge");
+                    jsfeat.imgproc.canny(img_u8, img_u8, options.low_threshold|0, options.high_threshold|0);
+                    stat.stop("canny edge");
+
+                    // render result back to canvas
+                    var data_u32 = new Uint32Array(imageData.data.buffer);
+                    var alpha = (0xff << 24);
+                    var i = img_u8.cols*img_u8.rows, pix = 0;
+                    while(--i >= 0) {
+                        pix = img_u8.data[i];
+                        data_u32[i] = alpha | (pix << 16) | (pix << 8) | pix;
+                    }
+
+                    ctx.putImageData(imageData, 0, 0);
+
+                //    $('#log').html(stat.log());
+                }
+            }
+
+            $(window).unload(function() {
+                video.pause();
+                video.src=null;
+            });
+//								    });
+		
+//a();						    
+        </script>
+
+<script src="finger_painting.js"></script>
+
