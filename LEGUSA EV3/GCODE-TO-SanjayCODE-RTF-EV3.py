@@ -1,4 +1,12 @@
 #import ev3dev.ev3 as ev3
+#Name your gcode file file.gcode
+#run the code and output to rtf (python GCODE-TO-SanjayCODE-RTF-EV3.py > gcode.rtf)
+# the rtf is now in SanjayCODE (R) and you can upload it to the EV3 "master" project
+# SanjayCODE format: 
+#X coord
+#Y coord
+#Z coord
+#Extruder 1/0 (On/Off)
 import time,sys
 file_name = "file.gcode"  # put your filename here
 zdpm = 1296/150
