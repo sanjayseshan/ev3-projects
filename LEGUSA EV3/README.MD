@@ -1,7 +1,6 @@
-**EV3 PRINT3DR (Formerly LEGUSA EV3)**
-*Name change to EV3D P.I.G. in progress
+**EV3D Pi.G Print3r**
 
-This project was inspired by Marc André Bazergui (Québec) (EV3D), Thomas Madea (Germany) (EV3D), Cyrus Cuenca (USA), Xander Soldaat (Netherlands)
+This project was inspired by an Alunar 3D Printer. Thank you to Marc André Bazergui and Cyrus Cuenca for their prior work on EV3D Printers
 
 Use slic3r to convert stl to gcode
 
