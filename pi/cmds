@@ -1,0 +1,6 @@
+#!/bin/bash
+killall fbcp
+ping 192.168.150.10 -c 7
+{ sleep 4; echo 'root'; sleep 4; echo 'Just a bit off the block!'; sleep 5; echo "dropbear"; sleep 2; echo 'exit'; sleep 3; } | telnet 192.168.150.10
+#sshpass -p "Just a bit off the block!" ssh 192.168.1.25 -l root
+fbcp &

@@ -1,0 +1,4 @@
+import os
+
+os.system('sshpass -p "Just a bit off the block!" scp pyramid.rtf root@192.168.1.25:/mnt/ramdisk/prjs/master/gcode.rtf')
+os.system('sshpass -p "Just a bit off the block!" ssh root@192.168.1.25 "echo 1 > /mnt/ramdisk/prjs/master/run.rtf"')

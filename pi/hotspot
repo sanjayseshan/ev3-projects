@@ -1,0 +1,9 @@
+#!/bin/bash
+killall fbcp
+#apt install --reinstall hostapd
+nmcli r wifi off
+rfkill unblock wlan
+~pi/AP-Hotspot/ap-hotspot start &
+#create_ap -n wlan0 EV3-3D-RPI 111122223333 --no-virt &
+sleep 10
+fbcp &
