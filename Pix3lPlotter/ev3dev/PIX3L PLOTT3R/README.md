@@ -7,17 +7,22 @@ We provide code to print in black & white and color.
 We also provide sample images.
 
 
+EDIT: Do NOT use the latest version of ev3dev. It will not work with this code. Do not run any upgrade command/
+Download: https://github.com/ev3dev/ev3dev/releases/download/ev3dev-jessie-2015-12-30/ev3-ev3dev-jessie-2015-12-30.img.xz
 
 *   Prerequisites:
 *   
         sudo apt-get update
-        sudo apt-get upgrade
+        <strike>//SKIP:sudo apt-get upgrade</strike>
         sudo apt-get install python-pip git
         sudo pip install python-ev3dev termcolor pillow
 
-*   The ev3dev version should be the latest. To upgrade:
+*   <strike>The ev3dev version should be the latest. To upgrade:
 
         sudo apt-get dist-upgrade
+        
+</strike>
+
 
 
 *   Download this folder:
