@@ -1,0 +1,54 @@
+echo "INITILIZING PAIRED BLUETOOTH CONNECTIONS"
+
+
+#BLUE BOTS
+echo maker | sudo -S rfcomm connect /dev/rfcomm6  00:16:53:4E:57:96 & #BOT
+echo maker | sudo -S rfcomm connect /dev/rfcomm7  00:16:53:4E:59:26 & #CONT
+
+##YELLOW/PACMAN BOTS
+#echo maker | sudo -S rfcomm connect /dev/rfcomm4 00:16:53:4B:3B:25  & #BOT
+#echo maker | sudo -S rfcomm connect /dev/rfcomm5 00:16:53:48:D1:8F  & #CONT
+
+#RED BOTS
+echo maker | sudo -S rfcomm connect /dev/rfcomm2 00:16:53:4E:56:AD  & #BOT
+echo maker | sudo -S rfcomm connect /dev/rfcomm3 00:16:53:50:12:B4  & #CONT
+
+#GREEN BOTS
+echo maker | sudo -S rfcomm connect /dev/rfcomm0 00:16:53:4E:55:13  & #BOT
+echo maker | sudo -S rfcomm connect /dev/rfcomm1 00:16:53:4E:53:A4  & #CONT
+
+
+sleep 10
+##BLUE BOTS
+#echo maker | sudo -S rfcomm connect /dev/rfcomm6  00:16:53:4E:57:96 & #BOT
+#echo maker | sudo -S rfcomm connect /dev/rfcomm7  00:16:53:4E:59:26 & #CONT
+
+##YELLOW/PACMAN BOTS
+#echo maker | sudo -S rfcomm connect /dev/rfcomm4 00:16:53:4B:3B:25  & #BOT
+#echo maker | sudo -S rfcomm connect /dev/rfcomm5 00:16:53:48:D1:8F  & #CONT
+
+##RED BOTS
+#echo maker | sudo -S rfcomm connect /dev/rfcomm2 00:16:53:4E:56:AD  & #BOT
+#echo maker | sudo -S rfcomm connect /dev/rfcomm3 00:16:53:50:12:B4  & #CONT
+
+##GREEN BOTS
+#echo maker | sudo -S rfcomm connect /dev/rfcomm0 00:16:53:4E:55:13  & #BOT
+#echo maker | sudo -S rfcomm connect /dev/rfcomm1 00:16:53:4E:53:A4  & #CONT
+
+
+sleep 10
+
+echo "INIT RELAYS"
+cd bridges
+python relay1.py &
+python relay2.py &
+python relay3.py &
+python relay4.py &
+
+cd ..
+
+echo "PYTHON MAIN"
+python -u btread0.py > data
+python -u btread1.py >> data
+python -u btread2.py >> data
+python -u btread3.py >> data

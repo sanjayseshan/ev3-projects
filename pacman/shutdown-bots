@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sshpass -p maker ssh robot@192.168.0.7 'echo maker | sudo -S poweroff' &
+sleep 1
+sshpass -p maker ssh robot@192.168.0.6 'echo maker | sudo -S poweroff' &
+sleep 1
+sshpass -p maker ssh robot@192.168.0.5 'echo maker | sudo -S poweroff' &
+sleep 1
+sshpass -p maker ssh robot@192.168.0.4 'echo maker | sudo -S poweroff' &
+sleep 1
+sshpass -p maker ssh robot@192.168.0.3 'echo maker | sudo -S poweroff' &
+sleep 1
+sshpass -p maker ssh robot@192.168.0.2 'echo maker | sudo -S poweroff' &

@@ -1,0 +1,3523 @@
+device /dev/input/event0, name "FT5406 memory based driver", phys ""
+Called by main
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+
+
+fbi: no process found
+READING INPUT
+Active on port: 5000
+Active on port: 6000
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+192.168.0.6;0
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+
+
+fbi: no process found
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+
+
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+
+
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+
+
+fbi: no process found
+0;green:(0,0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+
+
+0;green:(0,0) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+
+
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+
+
+0;green:(0,0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+
+
+fbi: no process found
+0;green:(0,0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+
+
+fbi: no process found
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+
+
+0;green:(0,0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+
+
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;brown:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;brown:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+1;yellow:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;none:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (5, 1), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+1;red:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (5, 1), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+1;none:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (5, 1), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+fbi: no process found
+1;none:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (5, 1), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+fbi: no process found
+1;none:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (5, 1), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+1;none:(5, 1) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (5, 1), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;none:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (4, 0), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+192.168.0.4;0
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (4, 0), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+0;none:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (4, 0), 'black': (0, 0), 'red': (5, 1), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+1;red:(5, 0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 1), 'none': (4, 0), 'black': (0, 0), 'red': (5, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+1;brown:(5, 0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (4, 0), 'black': (0, 0), 'red': (5, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (4, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+0;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (4, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+0;none:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (2, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+1;none:(5, 0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+192.168.0.4;1
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 1
+Green: 0
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+192.168.0.6;1
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (5, 1)}
+Pacman: 1
+Red: 1
+Green: 1
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+1;yellow:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (1, 0)}
+Pacman: 2
+Red: 1
+Green: 1
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;red:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (5, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (1, 0)}
+Pacman: 2
+Red: 1
+Green: 1
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+1;yellow:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (5, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 0)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;none:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 0)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;red:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 0)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+Ggreen
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+PRESSED
+X: 466
+Y: 406
+Reset Pressed
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+GhostHandler Exception
+(104, 'Connection reset by peer')
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 0)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Gred
+
+
+GhostHandler Exception
+(104, 'Connection reset by peer')
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (5, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 0)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+fbi: no process found
+0;green:(0,0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 2
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 1
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 1
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 1
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+Reset Done
+Called by Reset
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+fbi: no process found
+fbi: no process found
+fbi: no process found
+RELEASED
+X: 469
+Y: 407
+Reset Pressed
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+0;green:(0,0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+0;green:(0,0) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+Reset Done
+Called by Reset
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+
+
+fbi: no process found
+fbi: no process found
+fbi: no process found
+fbi: no process found
+PRESSED
+RELEASED
+192.168.0.6;2
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+192.168.0.6;3
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 1
+Green: 3
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+GAME OVER
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+192.168.0.4;2
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 2
+Green: 3
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(5, 0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (5, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 2
+Green: 3
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+192.168.0.4;3
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (5, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 3
+Green: 3
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+X: 448
+Y: 417
+Reset Pressed
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+192.168.0.6;0
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 3
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+192.168.0.4;0
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Reset Done
+Called by Reset
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+PRESSED
+RELEASED
+0;brown:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (0, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;yellow:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (0, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (1, 0)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;red:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (0, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (1, 0)}
+Pacman: 1
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;yellow:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (0, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 0)}
+Pacman: 2
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+2;yellow:(2, 1) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (0, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;none:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+192.168.0.6;1
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 0
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+192.168.0.4;1
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (1, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (1, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+2;none:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (2, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+2;red:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (1, 0), 'none': (2, 0), 'black': (0, 0), 'red': (2, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;brown:(0, 1) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 1), 'none': (2, 0), 'black': (0, 0), 'red': (2, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;brown:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (2, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;green:(1, 1) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (2, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+2;blue:(2, 2) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (2, 2), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;blue:(3, 2) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 1
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+192.168.0.6;2
+Called by Ggreen
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (2, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (4, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+2;red:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (4, 0), 'black': (0, 0), 'red': (2, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (4, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+2;red:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (4, 0), 'black': (0, 0), 'red': (2, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (4, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (2, 1)}
+Pacman: 3
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;yellow:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (4, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_chomp.wav' : Unsigned 8 bit, Rate 22050 Hz, Mono
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (4, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 1
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+192.168.0.4;2
+Called by Gred
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 2
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+192.168.0.4;3
+Called by Gred
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Playing WAVE 'pacman_death.wav' : Unsigned 8 bit, Rate 11025 Hz, Mono
+GAME OVER
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (1, 1), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;green:(3, 2) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (4, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;brown:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (4, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (4, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+1;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (3, 2), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (3, 2), 'white': (0, 0), 'yellow': (3, 0)}
+Pacman: 4
+Red: 3
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+X: 442
+Y: 416
+Reset Pressed
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+sending 5 bytes
+sending total 9 bytes
+sending    RESET
+SENDING COMPLETE
+Playing WAVE 'pacman-intro.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+192.168.0.4;0
+Called by Gred
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 4
+Red: 0
+Green: 2
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+192.168.0.6;0
+Called by Ggreen
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 4
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 3
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 2
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 2
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;green:(0,0) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+Reset Done
+Called by Reset
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+PRESSED
+RELEASED
+0;brown:(0, 0) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (0, 3), 'brown': (0, 0), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;brown:(1, 1) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (0, 3), 'brown': (1, 1), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;blue:(1, 1) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (1, 1), 'brown': (1, 1), 'none': (0, 0), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(2, 1) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (1, 1), 'brown': (1, 1), 'none': (2, 1), 'black': (0, 0), 'red': (0, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(5, 0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (1, 1), 'brown': (1, 1), 'none': (2, 1), 'black': (0, 0), 'red': (5, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;brown:(0, 1) 10.42.0.1 Tile
+Called by T0
+Locations: {'blue': (1, 1), 'brown': (0, 1), 'none': (2, 1), 'black': (0, 0), 'red': (5, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(5, 0) 10.42.5.1 Tile
+Called by T5
+Locations: {'blue': (1, 1), 'brown': (0, 1), 'none': (5, 0), 'black': (0, 0), 'red': (5, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+fbi: no process found
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (1, 1), 'brown': (0, 1), 'none': (5, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+fbi: no process found
+0;red:(4, 0) 10.42.4.1 Tile
+Called by T4
+Locations: {'blue': (1, 1), 'brown': (0, 1), 'none': (5, 0), 'black': (0, 0), 'red': (4, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+fbi: no process found
+0;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (1, 1), 'brown': (0, 1), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+fbi: no process found
+0;brown:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+fbi: no process found
+0;brown:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (5, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(3, 0) 10.42.3.1 Tile
+Called by T3
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (3, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (2, 0), 'black': (0, 0), 'red': (3, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(2, 0) 10.42.2.1 Tile
+Called by T2
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (2, 0), 'black': (0, 0), 'red': (2, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;none:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (1, 0), 'black': (0, 0), 'red': (2, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+
+0;red:(1, 0) 10.42.1.1 Tile
+Called by T1
+Locations: {'blue': (1, 1), 'brown': (3, 0), 'none': (1, 0), 'black': (0, 0), 'red': (1, 0), 'green': (0, 0), 'white': (0, 0), 'yellow': (4, 1)}
+Pacman: 0
+Red: 0
+Green: 0
+Connected:
+T3
+T0
+T4
+T2
+T5
+T1
+Ggreen
+Gred
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sshpass -p maker ssh robot@10.42.0.3 '~/shutdown-all'
+sleep 5
+echo seshan | sudo -S poweroff

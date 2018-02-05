@@ -1,0 +1,24 @@
+ssh: no process found
+python3: no process found
+python3: no process found
+python3: no process found
+Traceback (most recent call last):
+  File "master.py", line 43, in <module>
+    score(0,id,1,0)
+  File "master.py", line 31, in score
+    s.connect((HOST, PORT))
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "<stdin>", line 43, in <module>
+  File "<stdin>", line 31, in score
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "<stdin>", line 43, in <module>
+  File "<stdin>", line 31, in score
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "<stdin>", line 43, in <module>
+  File "<stdin>", line 31, in score
+ConnectionRefusedError: [Errno 111] Connection refused
+Remote process ended due to signal: Killed
+./exec-py: line 18:   690 Terminated              python identifyloc.py

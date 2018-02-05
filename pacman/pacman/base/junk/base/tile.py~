@@ -1,0 +1,113 @@
+import ev3dev.ev3 as ev3 
+import socket
+import struct
+
+
+cs = [ev3.ColorSensor(address='ev3-ports:in1'),ev3.ColorSensor(address='ev3-ports:in2'),ev3.ColorSensor(address='ev3-ports:in3'),ev3.ColorSensor(address='ev3-ports:in4')]
+locations = {"none": (0,0), "black": (0,0), "blue" : (0,0),"green": (0,0),"yellow": (0,0),"red": (0,0),"white": (0,0), "brown": (0,0)}
+colors = ['none','black','blue','green','yellow','red','white','brown']
+colorcount = [[0]*32,[0]*32,[0]*32,[0]*32]
+checked = [0]*64
+permachecked = [0]*64
+n=0
+HOST = '10.42.0.3'    # The remote host
+PORT = 5000             # The same port as used by the server
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
+s.connect((HOST, PORT))
+
+idfile = open("id.txt")
+id = int(idfile.readline().split('\n')[0])
+pmscore = 0
+
+def score(tileid, setid, color, counter, strlocation):
+   #	locations[colors[maxid]] = (id-1,n+1-1)
+   #	print(colors[maxid]+':'+str(locations[colors[maxid]]))
+   global pmscore
+   if color == 4:
+      if permachecked[counter] != 1:
+         pmscore = pmscore+1
+      permachecked[counter] = 1
+   send_str = (str(pmscore) + ';' + str(locations)).encode()
+   send_msg = struct.pack('!I', len(send_str))
+   send_msg += send_str
+   print("sending " + str(len(send_str)) + " bytes")
+   print("sending total " + str(len(send_msg)) + " bytes")
+   print("sending " + str(send_msg))
+   try:
+      s.sendall(send_msg)
+      print("SENDING COMPLETE")
+#      data = s.recv(1024)
+   except Exception as e:
+      print("FAILURE TO SEND.." + str(e.args) + "..RECONNECTING")
+      try:
+          s.connect((HOST, PORT))
+          print("sending " + send_msg)
+          s.sendall(send_msg)
+#         data = s.recv(1024)
+      except:
+          pass
+
+
+ovr = 0
+while n<4:
+   cs[n].mode='COL-AMBIENT'
+   n = n+1
+n = 0
+
+score(0,id,1,0,'green:(0,0)')
+permachecked = [0]*64
+pmscore = 0
+
+print("INIT")
+
+while True:
+   try:
+      n= 0
+      while n <4:
+         ovr = 0
+         if checked[n] != 1:
+            if permachecked[n] == 0:
+               cs[n].mode='COL-REFLECT'
+            else:
+               cs[n].mode='COL-COLOR'
+               #print("COL"+str(cs[n].value))
+               if cs[n].value() != 0:
+                  ovr = 1
+               else:
+                  ovr = 0
+                  valref = cs[n].value()
+         if valref > 8 or checked[n] == 1 or ovr == 1:
+            #print("N:"+str(n))
+            #print(valref)
+            checked[n] = 1
+            cs[n].mode='COL-COLOR'
+            valcol = cs[n].value()
+                      #      while valcol != 0:
+            valcol = cs[n].value()
+            colorcount[n][valcol] = colorcount[n][valcol]+1
+                           #         print(colorcount[n])
+            colorcount[n][0] = 0
+            colorcount[n][1] = 0
+            maxval = max(colorcount[n])
+            maxid = colorcount[n].index(maxval)
+                           #         print("MAX_COL:"+str(maxid))
+                           #         print("TILE NUM:"+str(n+1))
+                           #         print("TILE SET:"+str(id))
+                           #         print(locations)
+            if valcol == 0:
+               locations[colors[maxid]] = (id-1,n+1-1)
+               print(colors[maxid]+':'+str(locations[colors[maxid]]))
+                                   #+":"+str(pmscore))
+               checked[n]=0
+                                   #            if n+1 == 4:
+                                   #               if permachecked[counter] != 1:
+                                   #                  pmscore = pmscore+1
+
+               score(n+1,id,maxid,n,colors[maxid]+':'+str(locations[colors[maxid]]))
+               colorcount[n] = [0]*32
+                              #      colorcount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+               n = n+1
+   except:
+      pass
+        #s.close()

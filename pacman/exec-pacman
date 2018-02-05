@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "SSH INIT"
+
+cd /home/pi/pacman
+
+echo "Scoring Socket Server Runnning...."
+python -u scorer.py &> scorer.log &
+
+echo "Running Pacman Base Tiles...."
+cd base
+./exec-base
+
+echo "Runnning Complete"
+echo "To exit.....Please run 'killall python' in a new terminal"
+
+sleep 100000000000000000000

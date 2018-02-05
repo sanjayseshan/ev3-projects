@@ -1,0 +1,26 @@
+#!/bin/bash
+
+rm colors*
+
+sshpass -p maker ssh robot@10.42.0.1 'killall python3;echo connected1'
+sshpass -p maker ssh robot@10.42.1.1 'killall python3;echo connected2'
+sshpass -p maker ssh robot@10.42.2.1 'killall python3;echo connected3'
+sshpass -p maker ssh robot@10.42.3.1 'killall python3;echo connected4'
+sshpass -p maker ssh robot@10.42.4.1 'killall python3;echo connected5'
+sshpass -p maker ssh robot@10.42.5.1 'killall python3;echo connected6'
+
+echo exec
+sshpass -p maker ssh robot@10.42.0.1 python3 -u < tile.py - >> colors1 &
+sleep 1
+sshpass -p maker ssh robot@10.42.1.1 python3 -u < tile.py - >> colors2 &
+sleep 1
+sshpass -p maker ssh robot@10.42.2.1 python3 -u < tile.py - >> colors3 &
+sleep 1
+sshpass -p maker ssh robot@10.42.3.1 python3 -u < tile.py - >> colors4 &
+sleep 1
+sshpass -p maker ssh robot@10.42.4.1 python3 -u < tile.py - >> colors5 &
+sleep 1
+sshpass -p maker ssh robot@10.42.5.1 python3 -u < tile.py - >> colors6 &
+
+#echo printing
+#python identifyloc.py
