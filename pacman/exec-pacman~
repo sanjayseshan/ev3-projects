@@ -5,13 +5,10 @@ echo "SSH INIT"
 cd /home/pi/pacman
 
 echo "Scoring Socket Server Runnning...."
-cd ui/
 python -u scorer.py &> scorer.log &
-cd ..
 
 echo "Running Pacman Base Tiles...."
 cd base
-chmod +x exec-base
 ./exec-base
 
 echo "Runnning Complete"

@@ -5,6 +5,7 @@ import socket
 import threading
 import struct
 import evdev
+import sys
 from time import sleep
 
 device = evdev.InputDevice('/dev/input/event0')
@@ -17,6 +18,9 @@ set = [0]*6
 scores = {"red":0, "green":0, "pacman":0}
 tile_addr = ["10.42.0.1", "10.42.1.1", "10.42.2.1", "10.42.3.1", "10.42.4.1", "10.42.5.1"]
 loc = 'green:(0,0)'
+
+enToEs = {"bkg-en.png":"bkg-es.png", "Game Over":"Partido Completado", "Pacman Wins":"Pacman Gana", "Red Ghost Wins":"Fantasma Rojo Gana","Green Ghost Wins":"Fantasma Verde Gana"}
+
 
 ghostmax = 3 # winnning score for individual ghost
 pacmax = 16 # winning score for pacman
@@ -71,8 +75,8 @@ def updatedata(caller):
         yb,xb = locations['blue']
         yb = 5-yb
 
-        if need_reset:
-                return
+#        if need_reset:
+#                return
         red = str(scores["red"])
         pac = str(scores["pacman"])
         blue = str(scores["green"])
@@ -87,18 +91,30 @@ def updatedata(caller):
         os.system('convert -background black -fill white -size 16x16 -font Helvetica -pointsize 15 -gravity center label:"'+red+'" -threshold 50 -morphology Thinning:-1 "LineEnds:-1;Peaks:1.5" -depth 1 cmd1.png')
         os.system('convert -background black -fill white -size 16x16 -font Helvetica -pointsize 15 -gravity center label:"'+blue+'" -threshold 50 -morphology Thinning:-1 "LineEnds:-1;Peaks:1.5" -depth 1 cmd2.png')
         os.system('convert -background black -fill white -size 16x16 -font Helvetica -pointsize 15 -gravity center label:"'+pac+'" -threshold 50 -morphology Thinning:-1 "LineEnds:-1;Peaks:1.5" -depth 1 cmd3.png')
-        os.system('convert -size 160x96 xc:black -fill red -draw "image over  0,0 0,0 \'pacman-base.png\'" -fill red -draw "image over  '+str(int(xr)*16)+','+str(int(yr)*16)+' 0,0 \'red.png\'" -draw "image over  '+str(int(xb)*16)+','+str(int(yb)*16)+' 0,0 \'green.png\'" -fill yellow -draw "image over  '+str(int(xy)*16)+','+str(int(yy)*16)+' 0,0 \'pacman.png\'"  -draw "image over  100,18 0,0 \'cmd1.png\'" -draw "image over  100,34 0,0 \'cmd2.png\'" -draw "image over  100,50 0,0 \'cmd3.png\'" cmd.png ')
+
+        if caller == "Reset1":
+                #os.system('cp cmd.png cmdtmp.png ; convert cmdtmp.png -fill none -stroke blue -strokewidth 3 -draw "rectangle 77,70 124,90" cmd.png')
+                os.system('convert -size 160x96 xc:black -fill red -draw "image over  0,0 0,0 \''+bkgPic+'\'" -fill red -draw "image over  '+str(int(xr)*16)+','+str(int(yr)*16)+' 0,0 \'red.png\'" -draw "image over  '+str(int(xb)*16)+','+str(int(yb)*16)+' 0,0 \'green.png\'" -fill yellow -draw "image over  '+str(int(xy)*16)+','+str(int(yy)*16)+' 0,0 \'pacman.png\'"  -draw "image over  100,18 0,0 \'cmd1.png\'" -draw "image over  100,34 0,0 \'cmd2.png\'" -draw "image over  100,50 0,0 \'cmd3.png\'" -draw "rectangle 0,31 63,95" -fill none -stroke blue -strokewidth 3 -draw "rectangle 77,70 124,90" -fill black -draw "image over '+str(touchx/5)+','+str(touchy/5)+' 0,0 mouse2.png"  cmd.png ')
+        if caller == "Exit":
+                #os.system('cp cmd.png cmdtmp.png ; convert cmdtmp.png -fill none -stroke blue -strokewidth 3 -draw "rectangle 77,70 124,90" cmd.png')
+                os.system('convert -size 160x96 xc:black -fill red -draw "image over  0,0 0,0 \''+bkgPic+'\'" -fill red -draw "image over  '+str(int(xr)*16)+','+str(int(yr)*16)+' 0,0 \'red.png\'" -draw "image over  '+str(int(xb)*16)+','+str(int(yb)*16)+' 0,0 \'green.png\'" -fill yellow -draw "image over  '+str(int(xy)*16)+','+str(int(yy)*16)+' 0,0 \'pacman.png\'"  -draw "image over  100,18 0,0 \'cmd1.png\'" -draw "image over  100,34 0,0 \'cmd2.png\'" -draw "image over  100,50 0,0 \'cmd3.png\'" -draw "rectangle 0,31 63,95" -fill none -stroke blue -strokewidth 3 -draw "rectangle 13,0 159,143" -fill black -draw "image over '+str(touchx/5)+','+str(touchy/5)+' 0,0 mouse2.png"  cmd.png ')
+        elif caller == "Language":
+                os.system('convert -size 160x96 xc:black -fill red -draw "image over  0,0 0,0 \''+bkgPic+'\'" -fill red -draw "image over  '+str(int(xr)*16)+','+str(int(yr)*16)+' 0,0 \'red.png\'" -draw "image over  '+str(int(xb)*16)+','+str(int(yb)*16)+' 0,0 \'green.png\'" -fill yellow -draw "image over  '+str(int(xy)*16)+','+str(int(yy)*16)+' 0,0 \'pacman.png\'"  -draw "image over  100,18 0,0 \'cmd1.png\'" -draw "image over  100,34 0,0 \'cmd2.png\'" -draw "image over  100,50 0,0 \'cmd3.png\'" -draw "rectangle 0,31 63,95" -fill black -draw "image over '+str(touchx/5)+','+str(touchy/5)+' 0,0 mouse2.png"  cmd.png ')
+        else:
+                os.system('convert -size 160x96 xc:black -fill red -draw "image over  0,0 0,0 \''+bkgPic+'\'" -fill red -draw "image over  '+str(int(xr)*16)+','+str(int(yr)*16)+' 0,0 \'red.png\'" -draw "image over  '+str(int(xb)*16)+','+str(int(yb)*16)+' 0,0 \'green.png\'" -fill yellow -draw "image over  '+str(int(xy)*16)+','+str(int(yy)*16)+' 0,0 \'pacman.png\'"  -draw "image over  100,18 0,0 \'cmd1.png\'" -draw "image over  100,34 0,0 \'cmd2.png\'" -draw "image over  100,50 0,0 \'cmd3.png\' -fill black -draw "image over '+str(touchx/5)+','+str(touchy/5)+' 0,0 mouse1.png"  cmd.png ')
+        
         if int(red) >= ghostmax or int(blue) >= ghostmax or int(pac) >= pacmax:
 	        print "GAME OVER"
                 need_reset = 1
-	        os.system('echo seshan | sudo -S aplay pacman-intro.wav &')
+                if caller != "Language" and caller != "Reset1" and caller != "Touch" and caller != "spinner" and caller != "Exit":
+	                os.system('echo seshan | sudo -S aplay pacman-intro.wav &')
 	        os.system('cp cmd.png cmdtmp.png')
 	        if int(red) >= ghostmax :
-		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \'GAME OVER\nRED GHOST WON\' " cmd.png')
+		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \''+gameOver+'\n'+redWon+'\' " cmd.png')
 	        if int(blue) >= ghostmax :
-		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \'GAME OVER\nGREEN GHOST WON\' " cmd.png')
+		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \''+gameOver+'\n'+blueWon+'\' " cmd.png')
 	        if int(pac) >= pacmax :
-		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \'GAME OVER\nPACMAN WON\' " cmd.png')
+		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \''+gameOver+'\n'+pacWon+'\' " cmd.png')
 
 #                os.system('echo seshan | sudo -S killall fbi')
 
@@ -154,12 +170,12 @@ class Reset(object):
                                            print("PRESSED")
                     
                 if event.type == evdev.ecodes.EV_ABS:
-                        if event.code == evdev.ecodes.ABS_X:
+                        if event.code == evdev.ecodes.ABS_MT_POSITION_X:
                                 #            print("X: " + str(event.value))
                                 x = event.value
                                 if btn_pressed == 1:
                                         x_p = 1
-                        if event.code == evdev.ecodes.ABS_Y:
+                        if event.code == evdev.ecodes.ABS_MT_POSITION_Y:
                                 #            print("Y: " + str(event.value))            
                                 y = event.value
                                 if btn_pressed == 1:
@@ -170,22 +186,39 @@ class Reset(object):
                                 print("X: " + str(x))
                                 print("Y: " + str(y))
                                 if x > 390 and x < 620 and y > 360 and y < 450:
-                                        os.system('cp cmd.png cmd_tmp.png ; convert cmd_tmp.png -fill none -stroke blue -strokewidth 3 -draw "rectangle 77,70 124,90" cmd.png')
-                                        os.system('echo seshan | sudo -S killall fbi')
-                                        os.system('echo seshan | sudo -S fbi -d /dev/fb0 -T 3 -noverbose -a cmd.png > /dev/null 2>&1 &')
                                         print "Reset Pressed"
                                         reset = 1
-                                        #             updatedata()
+                                        updatedata("Reset1")
                                         broadcast("RESET")
-	                                os.system('echo seshan | sudo -S aplay pacman-intro.wav &')
+	                                os.system('echo seshan | sudo -S aplay win.wav &')
                                         reset = 0
-                                        locations = {"none": (0,0), "black": (0,0), "blue" : (0,3),"green": (0,0),"yellow": (4,1),"red": (0,0),"white": (0,0), "brown": (0,0)}
                                         sleep(8)
-                                        locations = {"none": (0,0), "black": (0,0), "blue" : (0,3),"green": (0,0),"yellow": (4,1),"red": (0,0),"white": (0,0), "brown": (0,0)}
                                         need_reset = 0
                                         print "Reset Done"
                                         updatedata("Reset")
-           
+                                elif x > 710 and x < 800 and y > 410 and y < 480:
+                                        print("SWITCHING TO ENGLISH")
+                                        bkgPic = "bkg-en.png"
+                                        gameOver = "Game Over"
+                                        pacWon = "Pacman Wins"
+                                        redWon = "Red Ghost Wins"
+                                        blueWon = "Green Ghost Wins"
+                                        updatedata("Language")
+                                elif x > 710 and x < 800 and y > 330 and y < 410:
+                                        print("SWITCHING TO SPANISH")
+                                        bkgPic = enToEs["bkg-en.png"]
+                                        gameOver = enToEs["Game Over"]
+                                        pacWon = enToEs["Pacman Wins"]
+                                        redWon = enToEs["Red Ghost Wins"]
+                                        blueWon = enToEs["Green Ghost Wins"]
+                                        updatedata("Language")
+                                elif x > 720 and x < 800 and y > 0 and y < 65:
+                                        print("Ending PACMAN")
+                                        updatedata("Exit")
+                                        os.system('echo seshan | sudo -S killall fbi ; sudo service lightdm restart')
+                                        sys.exit()
+                                else:
+                                        updatedata("Touch")
 
 class ThreadedServer(object):
     def __init__(self, host, port):

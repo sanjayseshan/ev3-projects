@@ -1,8 +1,0 @@
-#!/bin/bash
-killall ssh sshpass python3
-echo "Running Controller"
-sshpass -p maker ssh 192.168.0.2 'killall python3; echo connected'
-sshpass -p maker ssh 192.168.0.2 'python3 -u readbuttons.py' >> directions &
-echo "move.py and color.py"
-python3 -u color.py &
-python3 move.py

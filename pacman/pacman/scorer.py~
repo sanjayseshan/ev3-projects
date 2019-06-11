@@ -91,7 +91,7 @@ def updatedata(caller):
         if int(red) >= ghostmax or int(blue) >= ghostmax or int(pac) >= pacmax:
 	        print "GAME OVER"
                 need_reset = 1
-	        os.system('echo seshan | sudo -S aplay pacman_intermission.wav &')
+	        os.system('echo seshan | sudo -S aplay pacman-intro.wav &')
 	        os.system('cp cmd.png cmdtmp.png')
 	        if int(red) >= ghostmax :
 		        os.system('convert cmdtmp.png -font Helvetica -weight 700  -pointsize 15 -undercolor white -draw "gravity center fill blue text 0,0 \'GAME OVER\nRED GHOST WON\' " cmd.png')
@@ -133,7 +133,7 @@ class Reset(object):
            print ("READING INPUT")
 
    def watch(self):
-           global reset,need_reset
+           global reset,need_reset,locations
            btn_pressed = 0
            btn_processed = 0
            x = -1
@@ -175,10 +175,13 @@ class Reset(object):
                                         os.system('echo seshan | sudo -S fbi -d /dev/fb0 -T 3 -noverbose -a cmd.png > /dev/null 2>&1 &')
                                         print "Reset Pressed"
                                         reset = 1
-#                                        updatedata()
+                                        #             updatedata()
                                         broadcast("RESET")
+	                                os.system('echo seshan | sudo -S aplay pacman-intro.wav &')
                                         reset = 0
+                                        locations = {"none": (0,0), "black": (0,0), "blue" : (0,3),"green": (0,0),"yellow": (4,1),"red": (0,0),"white": (0,0), "brown": (0,0)}
                                         sleep(8)
+                                        locations = {"none": (0,0), "black": (0,0), "blue" : (0,3),"green": (0,0),"yellow": (4,1),"red": (0,0),"white": (0,0), "brown": (0,0)}
                                         need_reset = 0
                                         print "Reset Done"
                                         updatedata("Reset")
@@ -206,7 +209,7 @@ class ThreadedServer(object):
                 threading.Thread(target = self.handleGhost,args = (conn,address)).start()
 
     def handleTile(self, client, address):
-        global connections
+        global connections, set
 #        print "HANDLE TILE"
         size = 1024
         id = int(address.split(".")[2])
@@ -292,6 +295,7 @@ class ThreadedServer(object):
 #                return False
 
 updatedata("main")
+os.system('echo seshan | sudo -S aplay pacman-intro.wav &')
 Resetter = Reset()
 threading.Thread(target = Resetter.watch).start()
         
